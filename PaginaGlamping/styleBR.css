@@ -1,0 +1,96 @@
+/* styles.css */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+header{
+    position: relative;
+    height: 200px;
+    background-color: goldenrod;
+    z-index: 2;
+    padding: 20px;
+}
+header h1{
+    text-align: center;
+    
+}
+nav {
+    background-color: #3E2723;
+}
+
+.navbar {
+    width: auto;
+    list-style-type: none; /* Elimina los puntos de lista */
+    margin: 10px;
+    padding: 0;
+    overflow: hidden; /* Asegura que los elementos se mantengan en la misma línea */
+}
+
+.navbar li {
+    float: left; /* Coloca los elementos en fila horizontal */
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 50px;
+}
+.navbar a:hover{
+    padding: 14px 20px;
+    background-color: goldenrod;
+    color: black;
+    
+}
+main{
+    
+    justify-content: center;
+    margin-right: 220px;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main h1 {
+    text-align: center;
+    color: #333;
+}
+
+.database {
+    margin: 20px ;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+footer{
+    position: relative;
+    background-color: goldenrod;
+    text-align: center;
+    padding: 20px;
+}
