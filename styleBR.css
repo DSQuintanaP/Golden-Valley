@@ -93,7 +93,7 @@ tr:nth-child(even) {
 }
 footer{
     position: relative;
-    background-color: goldenrod;
+    background-color: gold;
     text-align: center;
     padding: 20px;
 }
