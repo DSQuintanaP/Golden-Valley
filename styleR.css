@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+header{
+    position: relative;
+    height: 175px;
+    background-color: goldenrod;
+    z-index: 2;
+    padding: 20px;
+}
+header h1{
+    text-align: center;
+    padding: 5px;
+}
+/* header ul{
+    display: flex;
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+header ul li {
+    display: flex;
+    flex-direction: column-reverse;
+} */
+nav {
+    background-color: #3E2723;
+}
+
+.navbar {
+    position: static;
+    list-style-type: none; /* Elimina los puntos de lista */
+    margin: 10px;
+    padding: 0;
+    overflow: hidden; /* Asegura que los elementos se mantengan en la misma línea */
+}
+
+.navbar li {
+    float: left; /* Coloca los elementos en fila horizontal */
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 50px;
+}
+.navbar a:hover{
+    padding: 14px 20px;
+    background-color: goldenrod;
+    color: black;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-right: 220px;
+    background-color: #3E2723;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main section{
+    border: 2px solid;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+.boxA{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    
+}
+.boxB{
+    display: flex;
+    background-color: goldenrod;
+    padding: 10px;
+    min-width: 600px;
+}
+.boxB section {
+    background-color: goldenrod;
+}
+.boxB section form label{
+    padding: 5px;
+}
+aside{
+    background-color: goldenrod;
+    position: fixed;
+    height: 100%;
+    right: 20px;
+    bottom: 0;
+    top: 0;
+    max-width: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    padding-top: 150px;
+    z-index: 1;
+}
+aside form input{
+    max-width: 150px;
+}
+aside form textarea{
+    max-width: 150px;
+}
+footer{
+    position: relative;
+    background-color: goldenrod;
+    text-align: center;
+    padding: 20px;
+}
+
+
