@@ -2,35 +2,42 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-right: 20px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     padding-right: 20px;
 }
 header{
-    margin-top: 5px;
-    position: relative;
-    max-height: 160px;
+    display: flex;
+    /* margin-top: 5px; */
+    position: fixed;
+    flex-direction: column;
+    height: 100%;
     background-color: gold;
     z-index: 2;
     padding: 20px;
+    width: 180px;
+    
 }
 header h1{
     text-align: center;
     max-height: 30px;
     padding: 5px;
-}
-nav {
-    /* background-color:; */
+    margin-bottom: 30px;
 }
 
+
 .navbar {
+    margin-top: 80px;
     width: auto;
     display: flex;
+    flex-direction: column;
+    margin-top: 10ox;
     list-style-type: none; /* Elimina los puntos de lista */
     margin: 10px;
     padding: 0;
-    overflow: hidden; /* Asegura que los elementos se mantengan en la misma línea */
+    /* overflow: hidden;  */
+    /* Asegura que los elementos se mantengan en la misma línea */
 }
 
 .navbar li {
@@ -45,6 +52,7 @@ nav {
     text-decoration: none;
     border: 1px solid;
     border-radius: 50px;
+    margin-top: 10px;
 }
 .navbar a:hover{
     padding: 14px 20px;
@@ -53,10 +61,11 @@ nav {
     
 }
 main{
-    
+    display: flex;
+    position: relative;
     justify-content: center;
     margin-right: 20px;
-    
+    margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -67,6 +76,21 @@ main h1 {
 
 .database {
     margin: 20px ;
+    /* display: flex; */
+    position: relative;
+    margin-left: 220px;
+    margin-bottom: 100px;
+    /* z-index: 2; */
+}
+.database a { 
+    display: flex;
+    text-decoration: none;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    margin-top: 5px;
+
 }
 
 table {
@@ -92,7 +116,9 @@ tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 footer{
-    position: relative;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
     background-color: gold;
     text-align: center;
     padding: 20px;
