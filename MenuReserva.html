@@ -41,12 +41,19 @@
                     <div class="row">
                         <div class="col">     
                             <label for="">Nombre Cliente</label>                       
-                            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Seleccione el cliente</option>
+                                <option value="1">Alice SummerWood</option>
+                                <option value="2">Peter Parker</option>
+                                <option value="3">Bob Ross</option>
+                            </select>
                         </div>
                         <div class="col">     
                             <label for="">Cantidad Huespedes</label>                       
-                            <input type="text" class="form-control" >
+                            <input type="number" class="form-control" >
                         </div>
+                    </div>
+                    <div class="row">
                         <div class="col">
                             <label for="">Fecha Check In</label>
                             <input type="date" class="form-control" >
@@ -57,23 +64,41 @@
                         </div>
                       </div>
                     <label for="typeroom"><h6>Tipo de habitacion:</h6></label> <br>
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Habitacion Sencilla <br>          
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Habitacion Doble <br>
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Habitacion Suite <br>
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Habitacion Familiar <br>
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Habitacion Sencilla ($130.000 )<br> 
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Habitacion Doble ($240.000)<br>
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Habitacion Suite ($300.000)<br>
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Habitacion Familiar ($480.000)<br>
                     <h6></h6>
                     <label for="Servicios"><h6>Paquete de servicios :</h6></label> <br>                
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de Aventura Terrestre</option><br>
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de Aventura Acuatica</option><br>
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de Aventura Aerea</option><br>
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de Artes Plasticas</option><br>
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de Acampada</option><br>
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de Aventura Terrestre ($200.000)</option><br>
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de Aventura Acuatica ($250.000)</option><br>
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de Aventura Aerea ($300.000)</option><br>
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de Artes Plasticas ($150.000)</option><br>
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de Acampada ($180.000)</option><br>
                     <h6></h6>                
                     <label for="intereses"><h6>Paquete de servicios (Parejas):</h6></label> <br>                
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de San Valentin</option><br>
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de Luna de Miel</option><br>
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de Aniversario</option><br>
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de Compromiso</option><br>
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de San Valentin ($190.000)</option><br>
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de Luna de Miel ($230.000)</option><br>
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de Aniversario ($210.000)</option><br>
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">Paquete de Compromiso ($250.000)</option><br>
+                    <h6></h6>
+                    <div>
+                        <p>Total a Pagar ($1'450.000)</p>
+                        <h6>Metodo de pago</h6>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Seleccione el metodo de pago</option>
+                            <option value="1">Paypal</option>
+                            <option value="2">Tarjeta Credito</option>
+                            <option value="3">Tarjeta Debito</option>
+                        </select>
+                        <h6></h6>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>¿Cuanto va a pagar?</option>
+                            <option value="1">Abono Inicial</option>
+                            <option value="2">Pago de contado</option>
+                            
+                        </select>
+                    </div>
                     <h6></h6>
                     <h6>Normas para reservar</h6>
                     <ul>
